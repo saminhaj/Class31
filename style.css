@@ -8,15 +8,20 @@ a{
 	box-shadow: 2px 2px 28px #dfddddd4;
 	background-color: #fff;
 }
-.header span {
+/* .header span {
 	color: #76a0fe;
 	font-size: 33px;
 	margin-right: 10px;
 	
+} */
+.header img {
+	height: 40px;
+	width: 40px;
+	margin-right: 8px;
 }
 .header strong {
 	position: relative;
-	top: -5px;
+	top: 2px;
 }
 .primary-menu{}
 .primary-menu li{
@@ -35,6 +40,7 @@ a{
 	visibility: hidden;
 	opacity: 0;
 	transition: .5s;
+	box-shadow: 1px 20px 23px rgba(72, 88, 202, 0.16);
 }
 .primary-menu li:hover ul{
 	visibility: visible;
